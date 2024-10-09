@@ -39,7 +39,7 @@ public class Main {
         System.out.println(table.rows());
         System.out.println(table.cols());
         table.setValue(4, 1, 5);
-        table.setValue(3, 3, 6);
+        table.setValue(3, 2, 2);
         table.getValue(2,2);
         System.out.println(table.toString());
         System.out.println(table.average());
