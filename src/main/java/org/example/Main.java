@@ -15,8 +15,8 @@ public class Main {
 
         //Задание 2
         Balance balance = new Balance();
-        balance.addLeft(1);
-        balance.addRight(1);
+        balance.addLeft(4);
+        balance.addRight(2);
         balance.result();
         System.out.println();
 
@@ -27,36 +27,36 @@ public class Main {
 
         //Задание 4
         OddEvenSeparator oddEvenSeparator = new OddEvenSeparator();
-        oddEvenSeparator.addNumber(5);
-        oddEvenSeparator.addNumber(2);
+        oddEvenSeparator.addNumber(3);
+        oddEvenSeparator.addNumber(1);
         oddEvenSeparator.even();
         oddEvenSeparator.odd();
         System.out.println();
 
         //Задание 5
 
-        Table table = new Table(6, 6);
+        Table table = new Table(5, 3);
         System.out.println(table.rows());
         System.out.println(table.cols());
-        table.setValue(2, 2, 5);
-        table.setValue(3, 3, 5);
+        table.setValue(4, 1, 5);
+        table.setValue(3, 3, 6);
         table.getValue(2,2);
         System.out.println(table.toString());
         System.out.println(table.average());
         System.out.println();
 
         //Задание 6
-        Figure circle = new Circle(2);
+        Figure circle = new Circle(3);
         System.out.println(circle.area());
         System.out.println(circle.toString());
         System.out.println();
 
-        Figure rectangle = new Rectangle(2, 2);
+        Figure rectangle = new Rectangle(3, 2);
         System.out.println(rectangle.area());
         System.out.println(rectangle.toString());
         System.out.println();
 
-        Cylinder cylinder = new Cylinder(circle, 5);
+        Cylinder cylinder = new Cylinder(circle, 4);
         System.out.println(cylinder.volume());
         System.out.println(cylinder.toString());
         System.out.println();
